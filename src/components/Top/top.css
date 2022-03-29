@@ -1,0 +1,35 @@
+.ac-topo{
+    display:flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 100vw;
+}
+.ac-topo .container-principal{
+    height: 115px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ac-topo input.busca{
+    background-color: #f5f5f5;
+    border:0;
+    padding:8px 16px;
+    border-radius: 20px;
+    width: 393px;
+    background-image: url("http://localhost:3000/img/search.svg");
+    background-repeat: no-repeat;
+    background-position: 95% 40%;
+    outline: none;
+}
+
+button.login{
+    width: 182px;
+    height: 51px;
+    box-sizing: border-box;
+    background-color: none;
+    background: none;
+    border:1px solid #2A7AE4;
+    color: #2A7AE4;
+    margin-left:auto;
+}
