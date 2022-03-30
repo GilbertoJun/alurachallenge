@@ -1,0 +1,33 @@
+.product-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:64px;
+    margin-top: 64px;
+}
+
+.product-section .list{
+    display: flex;
+    gap: 16px;
+
+}
+.product-list .top-section{
+    width:100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    padding:16px 0px;
+
+}
+
+.section-link{
+    font-weight: bold;
+    color: #2A7AE4;
+}
+
+.top-section .section-name{
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #464646;
+}

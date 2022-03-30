@@ -1,0 +1,17 @@
+.card .produto{
+    display: flex;
+}
+
+.card.product .labels{
+    display: flex;
+    flex-direction:column;
+}
+
+.card.product .labels .price{
+    font-weight: bold;
+}
+
+.card.product .labels a.product-link{
+    font-weight: bold;
+    color: #2A7AE4;
+}
