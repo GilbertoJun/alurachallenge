@@ -1,0 +1,9 @@
+.container-title{
+    height: 100%;
+    display: flex;
+    color:#fff;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-bottom:32px;
+}

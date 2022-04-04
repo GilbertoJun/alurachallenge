@@ -8,7 +8,6 @@ function Top(){
         <div className="ac-topo">
             <div className="container-principal ">
                 <div>
-                    {/* <img /> */}
                     <input type="search" className="busca" name="busca" placeholder='O que deseja encontrar?'/>
                 </div>
 
