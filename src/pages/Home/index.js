@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 
 import Top from '../../components/Top'
 import ProductList from '../../components/ProductList';
-import Product from '../../components/Product';
+import Footer from '../../components/Footer';
 
 function Home(){
 
@@ -13,7 +13,10 @@ function Home(){
         </div>
         <div className="container-principal container-produtos">
             <ProductList />
+
         </div>
+        <Footer />
+
 
     </React.Fragment>;
 }

@@ -127,7 +127,7 @@ function ProductList(){
                 return <div className="product-section">
                     <div className='top-section'>
                         <label className="section-name">{section.name}</label>
-                        <a className="section-link">Ver tudo</a>
+                        <a className="section-link">Ver tudo <img src="http://localhost:3000/img/seta-direita.svg" width={12}/></a>
                     </div>
                     <div className='list'>
                         {
